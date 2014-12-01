@@ -49,10 +49,7 @@
 			<h2>MY PREVIOUS WORK</h2>
 			<div class="mt"></div>
 				<div class="col-lg-4">
-					
-
-					<%= link_to(image_tag("logo.png", height: '300', width: '300'), image_path("logo.png"), :rel => "lightbox[ios]") %>
-
+					<%= link_to(image_tag("logo.png", :alt => "whale trails logo", height: '300', width: '300'), image_path("logo.png"), :rel => "lightbox[ios]", :title => "Application Logo Design") %>
 				</div>
 				<div class="col-lg-6">
 					<h3>iOS Application <small>Whale Trails </small><span class="label label-default">Design</span></h3>
@@ -65,13 +62,13 @@
 <!-- HIDDEN IMAGES -->
 
 				<div class="hide">
-					<%= link_to image_tag("packaging.png", :alt => "package design", height: '200', width: '300'), "assets/packaging.png", :rel => "lightbox[ios]", :title => "Packaging Design" %>
+					<%= link_to(image_tag("packaging.png", :alt => "package design", height: '200', width: '300'), image_path("packaging.png"), :rel => "lightbox[ios]", :title => "Packaging Design") %>
 
-					<%= link_to image_tag("splash.png", :alt => "splash screen", height: '300', width: '200'), "assets/splash.png", :rel => "lightbox[ios]", :title => "Splash Screen Design" %>
+					<%= link_to(image_tag("splash.png", :alt => "splash screen", height: '300', width: '200'), image_path("splash.png"), :rel => "lightbox[ios]", :title => "Splash Screen Design") %>
 
-					<%= link_to image_tag("menu.png", :alt => "menu screen"), "assets/menu.png", :rel => "lightbox[ios]", :title => "Menu Design" %>
+					<%= link_to(image_tag("menu.png", :alt => "menu screen"), image_path("menu.png"), :rel => "lightbox[ios]", :title => "Menu Design") %>
 
-					<%= link_to image_tag("demo.jpg", :alt => "demo screen"), "assets/demo.jpg", :rel => "lightbox[ios]", :title => "Interface Design" %>
+					<%= link_to(image_tag("demo.jpg", :alt => "demo screen"), image_path("demo.jpg"), :rel => "lightbox[ios]", :title => "Interface Design") %>
 				</div>
 		</div>
 		<br><br><hr>
@@ -89,29 +86,29 @@
 	
 		<div class="row centered mt grid">
 				<div class="col-lg-4">
-					<%= link_to image_tag("home.png", :alt => "Home screen", height: '300', width: '300'), "assets/home.png", :rel => "lightbox[webb]", :title => "Landing Page" %>
+					<%= link_to(image_tag("home.png", :alt => "Home screen", height: '300', width: '300'), image_path("home.png"), :rel => "lightbox[webb]", :title => "Landing Page") %>
 				</div>
 				
 				<div class="col-lg-4">
-					<%= link_to image_tag("item.png", :alt => "Item details page", height: '300', width: '300'), "assets/item.png", :rel => "lightbox[webb]", :title => "Item Details Page" %>
+					<%= link_to(image_tag("item.png", :alt => "Item details page", height: '300', width: '300'), image_path("item.png"), :rel => "lightbox[webb]", :title => "Item Details Page") %>
 				</div>
 
 				<div class="col-lg-4">
-					<%= link_to image_tag("profile.png", :alt => "Profile page", height: '300', width: '300'), "assets/profile.png", :rel => "lightbox[webb]", :title => "Profile Page" %>
+					<%= link_to(image_tag("profile.png", :alt => "Profile page", height: '300', width: '300'), image_path("profile.png"), :rel => "lightbox[webb]", :title => "Profile Page") %>
 				</div>	
 
 <!-- HIDDEN IMAGES -->
 
 				<div class="hide">
-					<%= link_to image_tag("signIn.png", :alt => "Sign in page"), "assets/signIn.png", :rel => "lightbox[webb]", :title => "Sign-in Page" %>
+					<%= link_to(image_tag("signIn.png", :alt => "Sign in page"), image_path("signIn.png"), :rel => "lightbox[webb]", :title => "Sign-in Page") %>
 
-					<%= link_to image_tag("sell.png", :alt => "Sell item page"), "assets/sell.png", :rel => "lightbox[webb]", :title => "Sell new Item Page" %>
+					<%= link_to(image_tag("sell.png", :alt => "Sell item page"), image_path("sell.png"), :rel => "lightbox[webb]", :title => "Sell new Item Page") %>
 
-					<%= link_to image_tag("signUp.png", :alt => "Sign up page"), "assets/signUp.png", :rel => "lightbox[webb]", :title => "Sign-up Page" %>
+					<%= link_to(image_tag("signUp.png", :alt => "Sign up page"), image_path("signUp.png"), :rel => "lightbox[webb]", :title => "Sign-up Page") %>
 
-					<%= link_to image_tag("bids.png", :alt => "Bid history page"), "assets/bids.png", :rel => "lightbox[webb]", :title => "Bidding History Page" %>
+					<%= link_to(image_tag("bids.png", :alt => "Bid history page"), image_path("bids.png"), :rel => "lightbox[webb]", :title => "Bidding History Page") %>
 
-					<%= link_to image_tag("admin.png", :alt => "Admin view page"), "assets/admin.png", :rel => "lightbox[webb]", :title => "Admin View Page" %>
+					<%= link_to(image_tag("admin.png", :alt => "Admin view page"), image_path("admin.png"), :rel => "lightbox[webb]", :title => "Admin View Page") %>
 				</div>
 		</div>
 		<br><br><hr>
@@ -130,25 +127,25 @@
 	
 		<div class="row centered mt grid">
 				<div class="col-lg-4">
-					<%= link_to image_tag("tax_home.png", :alt => "Home screen", height: '300', width: '300'), "assets/tax_home.png", :rel => "lightbox[webb2]", :title => "Home Screen" %>
+					<%= link_to(image_tag("tax_home.png", :alt => "Home screen", height: '300', width: '300'), image_path("tax_home.png"), :rel => "lightbox[webb2]", :title => "Home Screen") %>
 				</div>
 				
 				<div class="col-lg-4">
-					<%= link_to image_tag("story.png", :alt => "Story Example", height: '300', width: '300'), "assets/story.png", :rel => "lightbox[webb2]", :title => "Tax Analogy" %>
+					<%= link_to(image_tag("story.png", :alt => "Story Example", height: '300', width: '300'), image_path("story.png"), :rel => "lightbox[webb2]", :title => "Tax Analogy") %>
 				</div>
 
 				<div class="col-lg-4">
-					<%= link_to image_tag("quiz.png", :alt => "Quiz Example", height: '300', width: '300'), "assets/quiz.png", :rel => "lightbox[webb2]", :title => "Quiz" %>
+					<%= link_to(image_tag("quiz.png", :alt => "Quiz Example", height: '300', width: '300'), image_path("quiz.png"), :rel => "lightbox[webb2]", :title => "Quiz") %>
 				</div>	
 
 <!-- HIDDEN IMAGES -->
 
 				<div class="hide">
-					<%= link_to image_tag("tax101.png", :alt => "Sign in page"), "assets/tax101.png", :rel => "lightbox[webb2]", :title => "Tax 101" %>
+					<%= link_to(image_tag("tax101.png", :alt => "Sign in page"), image_path("tax101.png"), :rel => "lightbox[webb2]", :title => "Tax 101") %>
 
-					<%= link_to image_tag("tax_logo.png", :alt => "Sell item page"), "assets/tax_logo.png", :rel => "lightbox[webb2]", :title => "Logo Design" %>
+					<%= link_to(image_tag("tax_logo.png", :alt => "Sell item page"), image_path("tax_logo.png"), :rel => "lightbox[webb2]", :title => "Logo Design") %>
 
-					<%= link_to image_tag("coverPage.png", :alt => "Packaging Design"), "assets/coverPage.png", :rel => "lightbox[webb2]", :title => "Packaging Design" %>
+					<%= link_to(image_tag("coverPage.png", :alt => "Packaging Design"), image_path("coverPage.png"), :rel => "lightbox[webb2]", :title => "Packaging Design") %>
 				</div>
 		</div>
 		<br><br><hr>
