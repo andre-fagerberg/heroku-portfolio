@@ -1,0 +1,346 @@
+<section id="home"></section>
+<header class="navbar navbar-fixed-top navbar-inverse">
+      <%= link_to "André Fagerberg", '#home', id: "andreFagerberg" %>
+      <%= link_to image_tag("email_icon.png"), "#contact", :class => "email" %>
+      <nav>
+        <ul class="nav pull-right">
+          <li><%= link_to "Home", '#home' %></li>
+          <li><%= link_to "Work", '#work' %></li>
+          <li><%= link_to "About Me", '#about' %></li>
+        </ul>
+      </nav>
+</header>
+
+<!-- GREETING -->
+
+	<div id="hello">
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-lg-8 col-lg-offset-2 centered">
+	    			<h1>Hi I'm André.</h1>
+	    			<h2>Web Developer &amp; Database Specialist.</h2>
+	    		</div><!-- /col-lg-8 -->
+	    	</div><!-- /row -->
+	    </div> <!-- /container -->
+	</div><!-- /hello -->
+
+	<!-- WHAT I CAN DO -->
+	
+	<div id="green">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5 centered">
+					<%= image_tag("iMac_vector.png", :alt => "iMac vector") %>
+				</div>
+				<div class="col-lg-7 centered">
+					<h3>WHAT I CAN DO?</h3>
+					<p>I specialise in creating user-centered design experiences for the web, in the form of web applications, dynamic websites and graphical designs. I also have great knowledge within the network security and database fields.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<!-- PREVIOUS WORK -->
+<!-- WHALE TRAILS -->
+
+<section id="work"></section>
+	<div class="container">
+		<div class="row centered mt grid">
+			<h2>MY PREVIOUS WORK</h2>
+			<div class="mt"></div>
+				<div class="col-lg-4">
+					<%= link_to image_tag("logo.png", :alt => "whale trails logo", height: '300', width: '300'), "assets/logo.png", :rel => "lightbox[ios]", :title => "Application Logo Design" %>
+				</div>
+				<div class="col-lg-6">
+					<h3>iOS Application <small>Whale Trails </small><span class="label label-default">Design</span></h3>
+					<p class="lead">Whale Trails is an iOS mobile application that my developer team and I created. My main role in this project was to create all visual aspects of the application, including the user interface, application logo, backgrounds and images.<br><br>
+
+					<a href="https://itunes.apple.com/au/app/whaletrails/id735910799?mt=8" target="_blank" >Download from iTunes</a>
+					</p>
+				</div>
+
+<!-- HIDDEN IMAGES -->
+
+				<div class="hide">
+					<%= link_to image_tag("packaging.png", :alt => "package design", height: '200', width: '300'), "assets/packaging.png", :rel => "lightbox[ios]", :title => "Packaging Design" %>
+
+					<%= link_to image_tag("splash.png", :alt => "splash screen", height: '300', width: '200'), "assets/splash.png", :rel => "lightbox[ios]", :title => "Splash Screen Design" %>
+
+					<%= link_to image_tag("menu.png", :alt => "menu screen"), "assets/menu.png", :rel => "lightbox[ios]", :title => "Menu Design" %>
+
+					<%= link_to image_tag("demo.jpg", :alt => "demo screen"), "assets/demo.jpg", :rel => "lightbox[ios]", :title => "Interface Design" %>
+				</div>
+		</div>
+		<br><br><hr>
+	</div>
+		
+<!-- ETRAY -->
+
+	<div class="container">	
+		<div class="row mt centered">
+			<div class="col-lg-7 col-lg-offset-1 mt">
+				<h3>Web Application <small>eTray Auction Site </small><span class="label label-default">App Dev</span></h3>
+				<p class="lead">eTray is an online auction web application I developed in the Ruby on Rails framework. There are several advanced characteristics such as the implementation of sessions and cookie handling, password encryption using SHA-1 hash functions, and user/admin login with different privileges.</p>
+			</div>
+		</div>
+	
+		<div class="row centered mt grid">
+				<div class="col-lg-4">
+					<%= link_to image_tag("home.png", :alt => "Home screen", height: '300', width: '300'), "assets/home.png", :rel => "lightbox[webb]", :title => "Landing Page" %>
+				</div>
+				
+				<div class="col-lg-4">
+					<%= link_to image_tag("item.png", :alt => "Item details page", height: '300', width: '300'), "assets/item.png", :rel => "lightbox[webb]", :title => "Item Details Page" %>
+				</div>
+
+				<div class="col-lg-4">
+					<%= link_to image_tag("profile.png", :alt => "Profile page", height: '300', width: '300'), "assets/profile.png", :rel => "lightbox[webb]", :title => "Profile Page" %>
+				</div>	
+
+<!-- HIDDEN IMAGES -->
+
+				<div class="hide">
+					<%= link_to image_tag("signIn.png", :alt => "Sign in page"), "assets/signIn.png", :rel => "lightbox[webb]", :title => "Sign-in Page" %>
+
+					<%= link_to image_tag("sell.png", :alt => "Sell item page"), "assets/sell.png", :rel => "lightbox[webb]", :title => "Sell new Item Page" %>
+
+					<%= link_to image_tag("signUp.png", :alt => "Sign up page"), "assets/signUp.png", :rel => "lightbox[webb]", :title => "Sign-up Page" %>
+
+					<%= link_to image_tag("bids.png", :alt => "Bid history page"), "assets/bids.png", :rel => "lightbox[webb]", :title => "Bidding History Page" %>
+
+					<%= link_to image_tag("admin.png", :alt => "Admin view page"), "assets/admin.png", :rel => "lightbox[webb]", :title => "Admin View Page" %>
+				</div>
+		</div>
+		<br><br><hr>
+	</div>
+
+	<!-- TAX FILE NUMB3RS -->
+
+	<div class="container">	
+		<div class="row mt centered">
+			<div class="col-lg-7 col-lg-offset-4 mt">
+				<h3>Interactive Learning Object <small>Tax file numb3rs </small><span class="label label-default">App Dev</span></h3>
+				<p class="lead">Tax file numb3rs is an online interactive learning object to educate high school students about Australia's tax system.
+				It teaches the basics of taxation,  tax file numbers and tax returns by encouraging young adults to apply for a tax file number.</p>
+			</div>
+		</div>
+	
+		<div class="row centered mt grid">
+				<div class="col-lg-4">
+					<%= link_to image_tag("tax_home.png", :alt => "Home screen", height: '300', width: '300'), "assets/tax_home.png", :rel => "lightbox[webb2]", :title => "Home Screen" %>
+				</div>
+				
+				<div class="col-lg-4">
+					<%= link_to image_tag("story.png", :alt => "Story Example", height: '300', width: '300'), "assets/story.png", :rel => "lightbox[webb2]", :title => "Tax Analogy" %>
+				</div>
+
+				<div class="col-lg-4">
+					<%= link_to image_tag("quiz.png", :alt => "Quiz Example", height: '300', width: '300'), "assets/quiz.png", :rel => "lightbox[webb2]", :title => "Quiz" %>
+				</div>	
+
+<!-- HIDDEN IMAGES -->
+
+				<div class="hide">
+					<%= link_to image_tag("tax101.png", :alt => "Sign in page"), "assets/tax101.png", :rel => "lightbox[webb2]", :title => "Tax 101" %>
+
+					<%= link_to image_tag("tax_logo.png", :alt => "Sell item page"), "assets/tax_logo.png", :rel => "lightbox[webb2]", :title => "Logo Design" %>
+
+					<%= link_to image_tag("coverPage.png", :alt => "Packaging Design"), "assets/coverPage.png", :rel => "lightbox[webb2]", :title => "Packaging Design" %>
+				</div>
+		</div>
+		<br><br><hr>
+	</div>
+
+
+<!-- SECURITY PROJECT -->
+
+	<div class="container">	
+		<div class="row mt centered">
+			<div class="col-lg-8 col-lg-offset-2 mt">
+				<h3>Network Security Paper <small>Traitor-Tracing in Online Content Streaming </small><span class="label label-default">Research</span></h3>
+				<p class="lead">In this paper I discuss in-depth traitor tracing techniques for use in online streaming applications. A proposed solution is provided that may lead to more efficient traitor-tracing for online content streaming in the future.</p><br>
+
+				<%= link_to asset_path("Traitor Tracing Article.pdf"), :class => "btn btn-theme btn-lg", target: '_blank' do %> Download article <% end %>
+			</div>
+		</div>
+	</div>
+	<p><%= link_to 'Article', download_article_path, :target => "_blank" %>
+
+<!-- ABOUT ME & SKILLS -->
+	
+	<section id="about"></section>
+	<div id="skills">
+		<div class="col-lg-6 mt col-lg-offset-3">
+						<h3 class="centered">ABOUT ANDRÉ FAGERBERG</h3><hr>
+						<p>I am a 24 year old I.T driven guy from Sweden. I recently graduated from Griffith University where I was studying for 5 years to complete a Master of Information Technology - majoring in Networking &amp; Security and Data Management. I am an extremely fast learner and efficient in my work, never failing to produce a top quality result. My goal is to apply the knowledge acquired through my degree and secure an entry position in a leading technology company.</p>
+
+						<div id="resumeBtn"><strong><%= link_to asset_path("Andre Fagerberg Resume.pdf"), :class => "btn-sm btn-theme", target: '_blank' do %>  Download Resume <% end %></strong></div>
+		</div>
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-3 mt">
+					<canvas id="javascript" height="130" width="130"></canvas>
+					<p>Ruby on Rails</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 60,
+									color:"#74cfae"
+								},
+								{
+									value : 40,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="photoshop" height="130" width="130"></canvas>
+					<p>HTML/CSS</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 85,
+									color:"#74cfae"
+								},
+								{
+									value : 15,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="wordpress" height="130" width="130"></canvas>
+					<p>Database Design</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 90,
+									color:"#74cfae"
+								},
+								{
+									value : 10,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="bootstrap" height="130" width="130"></canvas>
+					<p>Networking &amp; Security</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 95,
+									color:"#74cfae"
+								},
+								{
+									value : 5,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("bootstrap").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /skills -->
+
+<!-- CONTACT ME  -->
+
+	<script>
+	$(document).ready(function(){
+	  // $(".alert").click(function(){
+	    $(".alert").fadeOut(9000);
+	  });
+	// });
+	</script>
+
+	<section id="contact"></section>
+		<div class="container">
+			<div class="col-lg-6 mt col-lg-offset-3">
+
+				<% flash.each do |key, value| %>
+        		<div class="alert alert-<%= key %>"><%= value %></div>
+   				<% end %>
+
+				<div class="emailForm">
+					<div class="row centered"><h3>SEND ME A MESSAGE</h3></div><br>
+
+					<%= form_for @message, :url => contactSend_path do |form| %>
+
+					<% if @message.errors.any? %>
+    				<div id="error_explanation">
+      					<h2><%= pluralize(@message.errors.count, "error") %> prohibited this message from being sent:</h2>
+
+      					<ul>
+      						<% @message.errors.full_messages.each do |msg| %>
+        					<li><%= msg %></li>
+      						<% end %>
+      					</ul>
+    				</div>
+  					<% end %>
+
+					<div class="form-group">
+				        <%= form.label :Name %>
+				        <%= form.text_field :name, :placeholder => "Your Name", class: "form-control" %>
+				    </div>
+				        
+				    <div class="form-group">
+				        <%= form.label :email %>
+				        <%= form.text_field :email, :placeholder => "Your Email", class: "form-control" %>
+				    </div>
+
+				    <div class="form-group">
+				        <%= form.label :subject %>
+				        <%= form.text_field :subject, :placeholder => "Subject", class: "form-control" %>
+				    </div>
+
+				    <div class="form-group">
+				        <%= form.label :Message %>
+				        <%= form.text_area :body, :rows => 5, class: "form-control" %>
+				        <%= form.submit "Send Message", class: "btn btn-theme btn-lg" %>
+				    </div>
+					<% end %>
+				</div>
+			</div>
+		</div><!-- /container --> 
+
+
+<!-- FOOTER -->
+
+	<div id="f">
+		<div class="container">
+			<div class="row">
+				<address>
+				  <strong>Contact Details:</strong><br>
+				  6/10 Jubilee Ave<br>
+				  Broadbeach, QLD 4218<br>
+				  Gold Coast, Australia<br>
+				  <abbr title="Phone">P:</abbr> (045) 702-0227
+				</address>
+
+				<ul>
+			      <li><%= link_to image_tag("facebook_icon.png"), 
+			      		"http://tinyurl.com/lwcyvt4", target: '_blank', :class => 'icon' %>
+			      </li>
+
+			      <li><%= link_to image_tag("linkedin_icon.png"), 
+			      		"http://tinyurl.com/mj56h2r", target: '_blank', :class => 'icon' %>
+			      </li>
+
+			      <li><%= link_to image_tag("instagram_icon.png"),
+			          	"http://tinyurl.com/mhjhdqg", target: '_blank', :class => 'icon' %>
+			      </li>
+			    </ul>
+			</div>
+		</div>
+	</div>

@@ -1,0 +1,130 @@
+ul {
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
+
+#resumeBtn {
+  text-align: center;
+}  
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+} 
+
+textarea {
+  resize: vertical;
+}
+
+ address {
+ 	float: left;
+  color: white;
+ }
+
+section{
+    position: relative;
+    top: -70px;
+}
+
+input, textarea, select, .uneditable-input {
+  border: 1px solid #bbb;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input {
+  height: auto !important;
+}
+
+.btn {
+  width: 200px;
+}
+
+ .icon {
+  -webkit-filter: brightness(100%);
+  &:hover {
+    -webkit-filter: brightness(50%);
+  }
+}
+
+.emailForm {
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+
+.email {
+    float: left;
+    padding: 17.5px;
+    -webkit-filter: brightness(0%);
+    &:hover {
+      -webkit-filter: brightness(100%);
+  }
+}
+
+.navbar {
+    background-color: #F7F7F7; 
+    background-image: none;
+    border-style: none;
+
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.065);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.065);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.065);
+    *zoom: 1;
+}
+
+.nav.pull-right > li a {
+  padding:25px;
+  color: #333;
+  text-transform: uppercase;
+    &:hover {
+      color: #74cfae;
+     background-color: white;
+     text-decoration: none;
+   }
+}
+
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+  h2 {
+    text-align: left;
+    font-weight: bold;
+    padding: 5px 5px 5px 15px;
+    font-size: 12px;
+    margin: -7px;
+    margin-bottom: 0px;
+    background-color: #c00;
+    color: #fff;
+  }
+  ul li {
+    font-size: 12px;
+    list-style: square;
+  }
+}
+
+#andreFagerberg {
+  float: left;
+  font-size: 1.7em;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding: 23px;
+
+  font-weight: bold;
+  line-height: 1;
+  &:hover {
+    color: #74cfae;
+    background-color: white;
+
+    text-decoration: none;
+  }
+}
