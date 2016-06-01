@@ -1,12 +1,12 @@
 <section id="home"></section>
 <header class="navbar navbar-fixed-top navbar-inverse">
-      <%= link_to "André Fagerberg", '#home', id: "andreFagerberg" %>
-      <%= link_to image_tag("email_icon.png"), "#contact", :class => "email" %>
+      <%= link_to "André Fagerberg", '#home', id: "andreFagerberg", class: "scroll" %>
+      <%= link_to image_tag("email_icon.png"), "#contact", class: "email scroll" %>
       <nav>
         <ul class="nav pull-right">
-          <li><%= link_to "Home", '#home' %></li>
-          <li><%= link_to "Work", '#work' %></li>
-          <li><%= link_to "About Me", '#about' %></li>
+          <li><%= link_to "Home", '#home', class: "scroll" %></li>
+          <li><%= link_to "Work", '#work', class: "scroll" %></li>
+          <li><%= link_to "About Me", '#about', class: "scroll" %></li>
         </ul>
       </nav>
 </header>
@@ -18,14 +18,14 @@
 	    	<div class="row">
 	    		<div class="col-lg-8 col-lg-offset-2 centered">
 	    			<h1>Hi I'm André.</h1>
-	    			<h2>Database Specialist &amp; Web Developer.</h2>
+	    			<h2>CX Consultant.</h2>
 	    		</div><!-- /col-lg-8 -->
 	    	</div><!-- /row -->
 	    </div> <!-- /container -->
 	</div><!-- /hello -->
 
 	<!-- WHAT I CAN DO -->
-	
+
 	<div id="green">
 		<div class="container">
 			<div class="row">
@@ -73,29 +73,29 @@
 		</div>
 		<br><br><hr>
 	</div>
-		
+
 <!-- ETRAY -->
 
-	<div class="container">	
+	<div class="container">
 		<div class="row mt centered">
 			<div class="col-lg-7 col-lg-offset-1 mt">
 				<h3>Web Application <small>eTray Auction Site </small><span class="label label-default">App Dev</span></h3>
 				<p class="lead">eTray is an online auction web application I developed in the Ruby on Rails framework. There are several advanced characteristics such as the implementation of sessions and cookie handling, password encryption using SHA-1 hash functions, and user/admin login with different privileges.</p>
 			</div>
 		</div>
-	
+
 		<div class="row centered mt grid">
 				<div class="col-lg-4">
 					<%= link_to(image_tag("home.png", :alt => "Home screen", height: '300', width: '300'), image_path("home.png"), :rel => "lightbox[webb]", :title => "Landing Page") %>
 				</div>
-				
+
 				<div class="col-lg-4">
 					<%= link_to(image_tag("item.png", :alt => "Item details page", height: '300', width: '300'), image_path("item.png"), :rel => "lightbox[webb]", :title => "Item Details Page") %>
 				</div>
 
 				<div class="col-lg-4">
 					<%= link_to(image_tag("profile.png", :alt => "Profile page", height: '300', width: '300'), image_path("profile.png"), :rel => "lightbox[webb]", :title => "Profile Page") %>
-				</div>	
+				</div>
 
 <!-- HIDDEN IMAGES -->
 
@@ -116,7 +116,7 @@
 
 	<!-- TAX FILE NUMB3RS -->
 
-	<div class="container">	
+	<div class="container">
 		<div class="row mt centered">
 			<div class="col-lg-7 col-lg-offset-4 mt">
 				<h3>Interactive Learning Object <small>Tax file numb3rs </small><span class="label label-default">App Dev</span></h3>
@@ -124,19 +124,19 @@
 				It teaches the basics of taxation,  tax file numbers and tax returns by encouraging young adults to apply for a tax file number.</p>
 			</div>
 		</div>
-	
+
 		<div class="row centered mt grid">
 				<div class="col-lg-4">
 					<%= link_to(image_tag("tax_home.png", :alt => "Home screen", height: '300', width: '300'), image_path("tax_home.png"), :rel => "lightbox[webb2]", :title => "Home Screen") %>
 				</div>
-				
+
 				<div class="col-lg-4">
 					<%= link_to(image_tag("story.png", :alt => "Story Example", height: '300', width: '300'), image_path("story.png"), :rel => "lightbox[webb2]", :title => "Tax Analogy") %>
 				</div>
 
 				<div class="col-lg-4">
 					<%= link_to(image_tag("quiz.png", :alt => "Quiz Example", height: '300', width: '300'), image_path("quiz.png"), :rel => "lightbox[webb2]", :title => "Quiz") %>
-				</div>	
+				</div>
 
 <!-- HIDDEN IMAGES -->
 
@@ -154,7 +154,7 @@
 
 <!-- SECURITY PROJECT -->
 
-	<div class="container">	
+	<div class="container">
 		<div class="row mt centered">
 			<div class="col-lg-8 col-lg-offset-2 mt">
 				<h3>Network Security Paper <small>Traitor-Tracing in Online Content Streaming </small><span class="label label-default">Research</span></h3>
@@ -166,12 +166,12 @@
 	</div>
 
 <!-- ABOUT ME & SKILLS -->
-	
+
 	<section id="about"></section>
 	<div id="skills">
 		<div class="col-lg-6 mt col-lg-offset-3">
 						<h3 class="centered">ABOUT ANDRÉ FAGERBERG</h3><hr>
-						<p>I am a 24 year old IT driven guy from Sweden. I recently graduated from Griffith University where I was studying for 5 years to complete a Master of Information Technology - majoring in Data Management. I'm a very fast learner and efficient in my work, never failing to produce a top quality result. My goal is to apply the knowledge acquired through my degree and secure an entry position in a leading technology company.</p>
+						<p>I'm a 26 year old CX consultant from Sweden with a Master's degree from Griffith University, Australia - majored in Data Management. Currently I have the role as a CX consultant at Lodon AB, Sweden where I work closely and efficiently with customers, never failing to produce a top quality result.</p>
 
 						<div id="resumeBtn"><strong><%= link_to asset_path("Andre Fagerberg Resume.pdf"), :class => "btn-sm btn-theme", target: '_blank' do %>  Download Resume <% end %></strong></div>
 		</div>
@@ -179,61 +179,7 @@
 			<div class="row centered">
 				<div class="col-lg-3 mt">
 					<canvas id="javascript" height="130" width="130"></canvas>
-					<p>Ruby on Rails</p>
-					<br>
-					<script>
-						var doughnutData = [
-								{
-									value: 60,
-									color:"#74cfae"
-								},
-								{
-									value : 40,
-									color : "#3c3c3c"
-								}
-							];
-							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
-					</script>
-				</div>
-				<div class="col-lg-3 mt">
-					<canvas id="photoshop" height="130" width="130"></canvas>
-					<p>HTML/CSS</p>
-					<br>
-					<script>
-						var doughnutData = [
-								{
-									value: 85,
-									color:"#74cfae"
-								},
-								{
-									value : 15,
-									color : "#3c3c3c"
-								}
-							];
-							var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
-					</script>
-				</div>
-				<div class="col-lg-3 mt">
-					<canvas id="wordpress" height="130" width="130"></canvas>
-					<p>Database Design</p>
-					<br>
-					<script>
-						var doughnutData = [
-								{
-									value: 90,
-									color:"#74cfae"
-								},
-								{
-									value : 10,
-									color : "#3c3c3c"
-								}
-							];
-							var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
-					</script>
-				</div>
-				<div class="col-lg-3 mt">
-					<canvas id="bootstrap" height="130" width="130"></canvas>
-					<p>Networking &amp; Security</p>
+					<p>SugarCRM</p>
 					<br>
 					<script>
 						var doughnutData = [
@@ -243,6 +189,60 @@
 								},
 								{
 									value : 5,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="photoshop" height="130" width="130"></canvas>
+					<p>Ruby on Rails</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 75,
+									color:"#74cfae"
+								},
+								{
+									value : 25,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("photoshop").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="wordpress" height="130" width="130"></canvas>
+					<p>LAMP</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 65,
+									color:"#74cfae"
+								},
+								{
+									value : 35,
+									color : "#3c3c3c"
+								}
+							];
+							var myDoughnut = new Chart(document.getElementById("wordpress").getContext("2d")).Doughnut(doughnutData);
+					</script>
+				</div>
+				<div class="col-lg-3 mt">
+					<canvas id="bootstrap" height="130" width="130"></canvas>
+					<p>JavaScript</p>
+					<br>
+					<script>
+						var doughnutData = [
+								{
+									value: 50,
+									color:"#74cfae"
+								},
+								{
+									value : 50,
 									color : "#3c3c3c"
 								}
 							];
@@ -292,7 +292,7 @@
 				        <%= form.label :Name %>
 				        <%= form.text_field :name, :placeholder => "Your Name", class: "form-control" %>
 				    </div>
-				        
+
 				    <div class="form-group">
 				        <%= form.label :email %>
 				        <%= form.text_field :email, :placeholder => "Your Email", class: "form-control" %>
@@ -311,7 +311,7 @@
 					<% end %>
 				</div>
 			</div>
-		</div><!-- /container --> 
+		</div><!-- /container -->
 
 
 <!-- FOOTER -->
@@ -328,11 +328,11 @@
 				</address>
 
 				<ul>
-			       <li><%= link_to image_tag("facebook_icon.png"), 
+			       <li><%= link_to image_tag("facebook_icon.png"),
 			      		"http://tinyurl.com/lwcyvt4", target: '_blank', :class => 'icon' %>
-			      </li> 
+			      </li>
 
-			      <li><%= link_to image_tag("linkedin_icon.png"), 
+			      <li><%= link_to image_tag("linkedin_icon.png"),
 			      		"http://tinyurl.com/mj56h2r", target: '_blank', :class => 'icon' %>
 			      </li>
 

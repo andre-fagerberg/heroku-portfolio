@@ -3,19 +3,18 @@ ul {
     list-style: none;
     li {
       float: left;
-      margin-left: 10px;
     }
   }
 
 #resumeBtn {
   text-align: center;
-}  
+}
 
 .field_with_errors {
   padding: 2px;
   background-color: red;
   display: table;
-} 
+}
 
 textarea {
   resize: vertical;
@@ -67,7 +66,7 @@ input {
 }
 
 .navbar {
-    background-color: #F7F7F7; 
+    background-color: #F7F7F7;
     background-image: none;
     border-style: none;
 
